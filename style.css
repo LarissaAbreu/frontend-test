@@ -163,7 +163,7 @@ header {
 		-webkit-box-sizing: border-box;
 }
 
-#menu-principal ul {
+.lista-menu-principal {
 	font-family: "Open-sans Semibold";
 	font-size: 16px;
 	padding: 2px 0;
@@ -175,7 +175,7 @@ header {
 	display: inline;
 }
 
-#menu-principal ul li a {
+.clique-menu-principal {
 	text-decoration: none;
 }
 
@@ -200,13 +200,13 @@ header {
 	padding: 16px 0;
 }
 
-#breadcrumb ul {
+.lista-breadcrumb {
 	padding: 2px 0;
 	margin-left: 25px;
 	display: inline-block;
 }
 
-#breadcrumb ul li {
+.item-lista-breadcrumb {
 	display: inline;
 	padding: 2px 5px;
 	-moz-box-sizing: border-box;
@@ -239,21 +239,21 @@ header {
 	padding: 16px 15px;
 }
 
-#menu-lateral ul li.titulo-principal-menu {
+.titulo-principal-menu-lateral {
 	margin-bottom: 10px;
 }
 
-#menu-lateral ul li span {
+.titulo-principal-menu-lateral {
 	font-family: "Open-sans Regular";
 	font-size: 16;
 	color: #f7941e;
 }
 
-#menu-lateral ul li {
+.lista-menu-lateral {
 	font-size: 14px;
 }
 
-#menu-lateral ul li a {
+.clique-lista-menu-lateral {
 	text-decoration: none;
 }
 
@@ -283,7 +283,7 @@ header {
 .subitem {
 	font-family: "Open-sans Regular";
 	margin: 10px 0;
-	padding-left: 3px;
+	padding-left: 5px;
 }
 
 #menu-lateral ul li .last {
