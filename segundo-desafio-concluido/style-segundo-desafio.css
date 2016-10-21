@@ -1,0 +1,188 @@
+@font-face {
+	font-family: "Open-sans Regular";
+	src: url("fonts/OpenSans-Regular-webfont.eot");
+	src: url("fonts/OpenSans-Regular-webfont.ttf");
+}
+
+@font-face {
+	font-family: "Open-sans Semibold";
+	src: url("fonts/OpenSans-Semibold-webfont.eot");
+	src: url("fonts/OpenSans-Semibold-webfont.ttf");
+}
+
+@font-face {
+	font-family: "Open-sans Bold";
+	src: url("fonts/OpenSans-Bold-webfont.eot");
+	src: url("fonts/OpenSans-Bold-webfont.ttf");
+}
+
+@font-face {
+	font-family: "Open-sans Light";
+	src: url("fonts/OpenSans-Light-webfont.eot");
+	src: url("fonts/OpenSans-Light-webfont.ttf");
+}
+
+.row,
+.col {
+	box-sizing: border-box;
+}
+
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.col {
+	position: relative;
+ 	float: left;
+}
+
+.col + .col {
+	margin-left: 1.6%;
+}
+
+.col-1 {
+	width: 6.86666666667%;
+}
+
+.col-2 {
+	width: 15.3333333333%;
+}
+
+.col-3 {
+	width: 23.8%;
+}
+
+.col-4 {
+	width: 32.2666666667%;
+}
+
+.col-5 {
+	width: 40.7333333333%;
+}
+
+.col-6 {
+	width: 49.2%;
+}
+
+.col-7 {
+	width: 57.6666666667%;
+}
+
+.col-8 {
+	width: 66.1333333333%;
+}
+
+.col-9 {
+	width: 74.6%;
+}
+
+.col-10 {
+	width: 83.0666666667%;
+}
+
+.col-11 {
+	width: 91.5333333333%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+@media only screen and (max-width: 550px) {
+	.col-1,
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5,
+	.col-6,
+	.col-7,
+	.col-8,
+	.col-9,
+	.col-10,
+	.col-11,
+	.col-12 {
+		width: auto;
+		float: none;
+	}
+
+	.col + .col {
+    	margin-left: 0;
+	}
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	color: #898989;
+}
+
+#container {
+	width: 600px;
+	margin: auto;
+	text-align: center;
+}
+
+#formulario {
+	text-align: justify;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+input {
+	height: 20px;
+}
+
+.linha-campo {
+	margin-bottom: 10px;
+}
+
+.campo {
+	width: 100%;
+}
+
+.cancelar,
+.salvar {
+	float: left;
+}
+
+.botao-salvar {
+	margin-left: 80px;
+	padding: 2px;
+}
+
+.botao-cancelar {
+	padding: 2px;
+}
+
+.titulo-listagem {
+	margin-bottom: 20px;
+}
+
+#lista {
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.primeira-linha {
+	font-family: "Open-sans Semibold";
+}
+
+.item-lista {
+	font-family: "Open-sans Regular";
+}
+
+.item-lista a:hover {
+	text-decoration: underline;
+}
+
+.clique-lista {
+	text-decoration: none;
+	color: royalblue;
+}

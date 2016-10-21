@@ -1,31 +1,26 @@
 @font-face {
 	font-family: "Open-sans Regular";
-	src: url("fonts/OpenSans-Regular-webfont.eot");
-	src: url("fonts/OpenSans-Regular-webfont.ttf");
+	src: url("../fonts/OpenSans-Regular-webfont.eot");
+	src: url("../fonts/OpenSans-Regular-webfont.ttf");
 }
 
 @font-face {
 	font-family: "Open-sans Semibold";
-	src: url("fonts/OpenSans-Semibold-webfont.eot");
-	src: url("fonts/OpenSans-Semibold-webfont.ttf");
+	src: url("../fonts/OpenSans-Semibold-webfont.eot");
+	src: url("../fonts/OpenSans-Semibold-webfont.ttf");
 }
 
 @font-face {
 	font-family: "Open-sans Bold";
-	src: url("fonts/OpenSans-Bold-webfont.eot");
-	src: url("fonts/OpenSans-Bold-webfont.ttf");
+	src: url("../fonts/OpenSans-Bold-webfont.eot");
+	src: url("../fonts/OpenSans-Bold-webfont.ttf");
 }
 
 @font-face {
 	font-family: "Open-sans Light";
-	src: url("fonts/OpenSans-Light-webfont.eot");
-	src: url("fonts/OpenSans-Light-webfont.ttf");
+	src: url("../fonts/OpenSans-Light-webfont.eot");
+	src: url("../fonts/OpenSans-Light-webfont.ttf");
 }
-
-/* .row {
-	width: 940px;
-	margin: auto;
-} */
 
 .row,
 .col {
@@ -351,7 +346,7 @@ header {
 }
 
 .icone-3 {
-	background: url('svgs/editar.svg');
+	background: url('../svgs/editar.svg');
     height: 45px;
     width: 45px;
     border: solid 2px #ec007a;

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style-segundo-desafio.css">
+		<title>Teste Front End - Amil - 2º Desafio</title>
+	</head>
+	<body>
+		<div id="container">
+			<h1>Cadastre-se</h1>
+			<h4>Por favor, preencha os campos abaixo para realizar seu cadastro.</h4>
+			<div id="formulario">
+				<form name="formulario">
+
+					<div class="linha-campo row">
+						<label>Nome</label><br />
+						<input required pattern="[a-zA-Z]+" type="text" id="nome-id" name="nome" class="campo" placeholder="Digite aqui seu nome" onblur="validaNome();" />
+					</div>
+
+					<div class="linha-campo row">
+						<div class="col col-4">
+							<label>Telefone</label><br />
+							<input required pattern="[\(]\d{2}[\)]\d{4}[\-]\d{4}" type="text" id="telefone-id" name="telefone" class="campo" placeholder="(xx) xxxx-xxxx" onblur="validaTelefone();" maxlength="14" />
+						</div>
+						<div class="col col-8">
+							<label>E-mail</label><br />
+							<input required type="email" id="email-id" name="email" class="campo" placeholder="email@email.com" onblur="validaEmail();" />
+						</div>
+					</div>
+
+					<div class="linha-campo">
+						<div class="cancelar">
+							<input type="submit" class="botao-cancelar" value="Cancelar" onclick="limpa();" />
+						</div>
+
+						<div class="salvar">
+							<input type="submit" class="botao-salvar" value="Salvar" onclick="salva();return false;" />
+						</div>
+					</div>
+
+				</form>
+			</div>
+			<div id="listagem">
+				<h3 class="titulo-listagem">Confira abaixo os nomes já cadastrados</h3>
+
+				<ul id="lista">
+				</ul>
+
+			</div>
+		</div>
+	</body>
+	<footer>
+		<script language="JavaScript" src="script.js"></script>
+	</footer>
+</html>
